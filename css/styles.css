@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,600;0,900;1,400&display=swap');
+
 .row-header {
   margin: 0px auto;
   padding: 0px;
@@ -7,13 +8,8 @@
 .row-content {
   margin: 0px auto;
   padding: 0;
-  border-bottom: 1px ridge;
   min-height: 400px;
 }
-
-/* .row-content .span2{
-  padding: 1rem;
-} */
 
 .jumbotron {
   padding: 100px 30px 70px;
@@ -53,7 +49,7 @@ body {
   padding: 50px 0px 0px 0px;
   z-index: 0;
   color: black;
-  background-color: white;
+  background-image: linear-gradient(to right, rgb(255, 211, 211), white, rgb(255, 211, 211));
 }
 
 .navbar {
@@ -89,11 +85,6 @@ body {
 
 .container-items p{
   text-align: justify;
-}
-
-.span2{
-  padding-right: 5px; 
-  /* border-right: 1px solid #ccc; */
 }
 
 .offset-md-2{
