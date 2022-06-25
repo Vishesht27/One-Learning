@@ -58,9 +58,10 @@ A few of the things you can do with One-Learning:
 
 Our tech stack consists of the following:
 
-* **BootStrap** 
+* **HTML**
+* **CSS**
+* **BootStrap**
 * **Jquery**
-* **HTML,CSS**
 
 
 ## Build Process
