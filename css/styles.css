@@ -11,9 +11,9 @@
   min-height: 400px;
 }
 
-.row-content .span2{
+/* .row-content .span2{
   padding: 1rem;
-}
+} */
 
 .jumbotron {
   padding: 100px 30px 70px;
@@ -33,6 +33,10 @@
 }
 .heading-col p{
   font-size: 1.7rem;
+}
+
+.container-items{
+  margin: 50px auto 50px;
 }
 
 .container-items h2{
@@ -89,7 +93,7 @@ body {
 
 .span2{
   padding-right: 5px; 
-  border-right: 1px solid #ccc;
+  /* border-right: 1px solid #ccc; */
 }
 
 .offset-md-2{
@@ -218,9 +222,10 @@ strong{
     margin-bottom: 25px;
   }
 
-  .col-lg-4 p{
+  .col-para{
     font-size: 120%;
   }
+
   .heading-col p{
     font-size: 1.3rem;
   }
@@ -248,7 +253,7 @@ strong{
 }
 
 @media (max-width: 767px){
-  .col-lg-4 p{
+  .col-para{
     font-size: 100%;
   }
 }
